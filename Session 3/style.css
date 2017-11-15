@@ -1,0 +1,32 @@
+body {
+	background-color: #E3E3E3;
+	font-family: Barlow;
+	max-width: 1000px;
+	margin: auto;
+	font-size: 22px;
+	line-height: 115%;
+}
+
+#bubbleTea {
+	max-width: 800px;
+}
+
+h1 {
+	font-size: 72px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: 700;
+}
+
+input {
+	font-family: Barlow;
+	font-size: 22px;
+	line-height: 115%;
+}
+
+#footer {
+	margin-top: 200px;
+}

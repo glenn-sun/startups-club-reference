@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+	<script src="script.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
+</head>
+<body>
+	<h1>Bubble Tea</h1>
+	<img id="bubbleTea" src="https://truffle-assets.imgix.net/pxqrocxwsjcc_26BMy1cFsgm4iEaa4WC4OG_healthy-bubble-tea_landscapeThumbnail_en.png">
+	<h2>Information</h2>
+	<p>Here is some information about bubble tea...</p>
+	<h2>Interest</h2>
+
+	<form name="interestForm">
+		Name: <br>
+		<input type="text" name="name"> <br><br>
+		Favorite flavor: <br>
+		<input type="radio" name="flavor" value="regular"> Regular milk tea <br>
+	  	<input type="radio" name="flavor" value="mango"> Mango <br>
+	  	<input type="radio" name="flavor" value="strawberry"> Strawberry <br><br>
+		<input type="button" name="submit" value="Submit" onClick="recordForm(this.form)">
+	</form>
+
+	<p id="recognizeSubmission"> </p>
+	<div id="footer"></div>
+</body>
