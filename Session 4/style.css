@@ -1,0 +1,89 @@
+body {
+	background-color: #DBDDE3;
+	font-family: 'Roboto';
+	max-width: 1200px;
+	margin: auto;
+	font-size: 16px;
+	line-height: 115%;
+}
+
+h1 {
+	font-family: 'Roboto Slab';
+	font-size: 36px;
+	font-weight: 700;
+	margin: 20px;
+}
+
+.main {
+	display: flex;
+	flex-direction: row;
+}
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 20px 0px 20px;
+	background-color: #F4F4F4;
+	width: 300px;
+}
+
+#sideHeading {
+	font-family: 'Roboto Slab';
+	font-weight: 700;
+	font-size: 20px;
+	margin: 12px;
+}
+
+.file {
+	padding: 12px;
+}
+
+.file:hover {
+	background-color: #C3C3C3;
+	cursor: pointer;
+}
+
+.current {
+	font-weight: 700;
+}
+
+.editor {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	margin: 20px 20px 0px 20px;
+}
+
+.toolbar {
+	display: flex;
+	flex-direction: row;
+}
+
+.button {
+	margin: 6px 12px 6px 0px;
+	padding: 6px 12px;
+	border-style: solid;
+	border-color: #A8A8A8;
+	border-width: 1px;
+}
+
+.button:hover {
+	background-color: #C3C3C3;
+	cursor: pointer;
+}
+
+#title {
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 700;
+	margin: 6px 0px 0px 0px;
+}
+
+#textarea {
+	font-family: 'Roboto';
+	font-size: 16px;
+	line-height: 115%;
+	margin: 6px 0px 0px 0px;
+	resize: none;
+	height: 600px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Slab:700" rel="stylesheet"> 
+</head>
+<body>
+	<h1>Simple Text Editor</h1>
+	<div class="main">
+		<div class="sidebar">
+			<div id="sideHeading">Files</div>
+		</div>
+		<div class="editor">
+			<div class="toolbar">
+				<div class="button" id="newButton">New</div> 
+				<div class="button" id="saveButton">Save</div>
+				<div class="button" id="delButton">Delete</div>
+			</div>
+			<input type="text" id="title" placeholder="Title"/>
+			<textarea id="textarea" placeholder="Text"></textarea>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
